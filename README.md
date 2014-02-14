@@ -8,3 +8,7 @@ Requirements
 Tutorial can be found here: http://learn.adafruit.com/adafruit-ina219-current-sensor-breakout/overview
 
 The sketch puts out shunt voltage, load voltage and current with a 10 seconds interval.
+
+To read the output use
+
+$ ruby serial-port-read.rb
