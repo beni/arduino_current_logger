@@ -1,7 +1,7 @@
 This sketch measures the current up to 26V / 3.2A of an electrical consumer.
 It uses the INA219 High Side DC Current Sensor Breakout Board from Adafruit.
 
-![Hardware](https://github.com/beni/arduino_current_logger/blob/master/hardware.jpg)
+![Hardware](/hardware.jpg "")
 
 Requirements
 * Breakout Board: http://www.adafruit.com/products/904
