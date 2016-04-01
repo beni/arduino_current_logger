@@ -22,11 +22,10 @@ void loop(void)
   float loadvoltage = 0;
 
   shuntvoltage = ina219.getShuntVoltage_mV();
-  //busvoltage = ina219.getBusVoltage_V();
+  busvoltage = ina219.getBusVoltage_V();
   current_mA = ina219.getCurrent_mA();
   loadvoltage = busvoltage + (shuntvoltage / 1000);
   
-  //Serial.print("Bus Voltage:   "); Serial.print(busvoltage); Serial.println(" V");
   Serial.print("Shunt: "); Serial.print(shuntvoltage); Serial.print("mV, ");
   Serial.print("Load: "); Serial.print(loadvoltage); Serial.print("V, ");
   Serial.print("Current: "); Serial.print(current_mA); Serial.print("mA");

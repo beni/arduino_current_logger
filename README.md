@@ -5,7 +5,7 @@ It uses the INA219 High Side DC Current Sensor Breakout Board from Adafruit.
 
 Requirements
 * Breakout Board: http://www.adafruit.com/products/904
-* Adafruit Library: http://learn.adafruit.com/adafruit-ina219-current-sensor-breakout/downloads
+* Adafruit Library: https://github.com/adafruit/Adafruit_INA219 (needs to be saved in ~/Documents/Arduino/libraries or wherever your Arudino libraries are located)
 
 Tutorial can be found here: http://learn.adafruit.com/adafruit-ina219-current-sensor-breakout/overview
 
